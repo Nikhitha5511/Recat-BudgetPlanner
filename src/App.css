@@ -1,0 +1,103 @@
+body{
+    background-color: #e6fdf7;
+    box-sizing: border-box;
+}
+
+
+h2{
+    text-align: center;
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+.box{
+    width:200px;
+    background-color: #0fba8a;
+    padding: 4px;
+    border-radius: 5px;
+    text-align: center;
+    color:white;
+}
+
+h3{
+   
+   margin-top: 60px;
+   margin-left: 300px;
+}
+.secondContainer{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    align-items: center;
+    margin-left: 300px;
+
+}
+.button1{
+    margin-left: 400px;
+    margin-top: 30px;
+    width:150px;
+    height:25px;
+    background-color:pink;
+    color:white;
+    border-radius: 5px;
+    border:none;
+    padding:4px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.thirdContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+  }
+  
+  .expenseEntry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0fba8a;
+    padding: 10px;
+    margin-bottom: 10px; 
+    width:850px;
+    height:20px;
+    color:white;
+
+  }
+  
+  .expenseDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:100px;
+    font-size: 18px;
+  }
+  
+  .button2{
+    background: none;
+    font-size: 18px;
+    border:none;
+    color: white;
+  }
+
+  @keyframes identifier {
+    from {
+      transform: scale(0.5);
+      color:green;
+    }
+    to {
+      transform: scale(1);
+      color:blue;
+    }
+  }
+  
+  h2 {
+    animation-name: identifier;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+  }
